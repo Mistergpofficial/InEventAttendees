@@ -1,0 +1,119 @@
+*{
+    font-family: "Rimouski";
+}
+
+body{
+    background-color: peachpuff;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    width: 18.75rem;    
+    background-color: rgb(224, 219, 219);
+    
+    display: block;
+    margin: 2rem auto;
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #303a5f;
+}
+
+.notification{
+    background-color: #ddc0c2;
+    display: none;
+}
+
+.notification p{
+    color: #5f151c;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: rgb(226, 231, 238);
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+.temperature-value p small{
+    font-size: 0.2em !important;
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+@media screen and (max-width: 889px){
+    body{
+        background-image: url('./img/weath-bg-mobile.jpg');
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 535px){
+    body{
+        background-image: url('./img/weath-bg-mobile.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
