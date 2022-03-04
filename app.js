@@ -28,7 +28,7 @@ function getperson(eventID, personID){
     
 
     fetch(api,{
-        method: 'GET', // or 'PUT'
+        method: 'GET', 
         headers: {
             'Authorization': 'Bearer $2a$08$OTA3NTc1ODU2NjIyMWNhMOmqIB03dGaGGHX7oMJ3xZ1o8fD2xCNCe',
           'Accept': 'application/json',
