@@ -53,11 +53,11 @@ function getperson(eventID, personID){
 
 // function to display person
 function displayperson(){
-    firstName.innerHTML = person.firstName;
-    lastName.innerHTML = person.lastName;
-    username.innerHTML = person.username;
-    email.innerHTML = person.email;
-    telephone.innerHTML = person.telephone;
-    enrollmentDate.innerHTML = person.enrollmentDate;
+    firstName.innerHTML = `First Name: ${person.firstName}`;
+    lastName.innerHTML = `First Name: ${person.lastName}`;
+    username.innerHTML = `First Name: ${person.username}`;
+    email.innerHTML = `First Name: ${person.email}`;
+    telephone.innerHTML = `First Name: ${person.telephone}`;
+    enrollmentDate.innerHTML = `First Name: ${person.enrollmentDate}`;
 }
 
